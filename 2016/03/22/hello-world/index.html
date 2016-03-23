@@ -46,7 +46,7 @@ Quick">
           isArchive: false,
           isTag: false,
           isCategory: false,
-          open_in_new: false,
+          open_in_new: true,
       }
   </script>
 
@@ -163,9 +163,9 @@ Quick">
                 <section class="switch-part switch-part3">
                     <div id="js-friends">
                     
-                      <a target="_blank" class="main-nav-link switch-friends-link" href="https://hexo.io">Hexo</a>
+                      <a target="_blank" class="main-nav-link switch-friends-link" href="https://li2014.gitHub.io">Alan</a>
                     
-                      <a target="_blank" class="main-nav-link switch-friends-link" href="https://pages.github.com/">GitHub</a>
+                      <a target="_blank" class="main-nav-link switch-friends-link" href="https://github.com/">GitHub</a>
                     
                       <a target="_blank" class="main-nav-link switch-friends-link" href="http://moxfive.xyz/">MOxFIVE</a>
                     
@@ -177,7 +177,7 @@ Quick">
                 
                 <section class="switch-part switch-part4">
                 
-                    <div id="js-aboutme">专注于前端</div>
+                    <div id="js-aboutme">专注技术，关注生活，品味人生</div>
                 </section>
                 
             </div>
@@ -340,6 +340,22 @@ Quick">
     }
 </script>
 
+
+    <style>
+        .toc {
+            white-space: nowrap;
+            overflow-x: hidden;
+        }
+    </style>
+
+    <script>
+        $(document).ready(function() {
+            $(".toc li a").mouseover(function() {
+                var title = $(this).find('.toc-text').text();
+                $(this).attr("title", title);
+            });
+        })
+    </script>
 
 
 
