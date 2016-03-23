@@ -6,5 +6,5 @@ Disallow: /fancybox
 Disallow: /font-awesome
 Disallow: /img
 Disallow: /js
-Sitemap: http://code.youmeek.com/sitemap.xml
-Sitemap: http://code.youmeek.com/baidusitemap.xml
+Sitemap: http://li2014.github.io/sitemap.xml
+Sitemap: http://li2014.github.io/baidusitemap.xml
