@@ -133,7 +133,7 @@ button::-moz-focus-inner {
 }
 body {
   font-family: "Lucida Grande", Verdana, "Helvetica Neue", Arial, sans-serif, "Microsoft YaHei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   background: #fff;
   color: rgba(0,0,0,0.6);
   -webkit-overflow-scrolling: touch;
@@ -2026,7 +2026,7 @@ li:hover {
   border-width: 1px;
   overflow: auto;
   color: #c5c8c6;
-  line-height: 22.400000000000002px;
+  line-height: 19.200000000000003px;
 }
 .article-entry .highlight .gutter pre,
 .article-entry .gist .gist-file .gist-data .line-numbers {
@@ -2088,7 +2088,7 @@ li:hover {
   padding-right: 1em;
 }
 .article-entry .highlight .line {
-  height: 22.400000000000002px;
+  height: 19.200000000000003px;
 }
 .article-entry .gist {
   margin: 0 -20px;
